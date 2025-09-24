@@ -37,17 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD:college_erp_system/college_erp/settings.py
     'rest_framework',
     'accounts',
     'students',
     'teachers',
     'academics',
     'administration',
-=======
-    'app',
-    
->>>>>>> 813f19b68b65383eb02dd95b0d5f176c9a81e8cb:ERP/ERP/settings.py
 ]
 
 MIDDLEWARE = [
@@ -65,11 +60,7 @@ ROOT_URLCONF = 'college_erp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-<<<<<<< HEAD:college_erp_system/college_erp/settings.py
         'DIRS': [BASE_DIR / 'templates'],
-=======
-        'DIRS': [BASE_DIR / 'templets'],
->>>>>>> 813f19b68b65383eb02dd95b0d5f176c9a81e8cb:ERP/ERP/settings.py
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
